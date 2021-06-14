@@ -1,0 +1,29 @@
+{
+  "name": "marwzoor.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marwzoor/marwzoor.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marwzoor/marwzoor.github.io/issues"
+  },
+  "homepage": "https://github.com/Marwzoor/marwzoor.github.io#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "gulp-terser": "^2.0.1",
+    "node-sass": "^6.0.0"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
