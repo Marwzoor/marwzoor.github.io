@@ -1,29 +1,30 @@
 {
-  "name": "marwzoor.github.io",
+  "name": "cozy-coding",
   "version": "1.0.0",
-  "description": "",
   "private": true,
+  "description": "Cozy Coding",
+  "author": "Martin Werner",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Marwzoor/marwzoor.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Marwzoor/marwzoor.github.io/issues"
-  },
-  "homepage": "https://github.com/Marwzoor/marwzoor.github.io#readme",
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-sass": "^4.1.0",
-    "gulp-terser": "^2.0.1",
-    "node-sass": "^6.0.0"
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "gulp-htmlmin": "^5.0.1"
+    "gatsby": "^3.6.2",
+    "gatsby-plugin-image": "^1.8.0",
+    "gatsby-plugin-manifest": "^3.8.0",
+    "gatsby-plugin-sass": "^4.8.0",
+    "gatsby-plugin-sharp": "^3.8.0",
+    "gatsby-plugin-sitemap": "^4.4.0",
+    "gatsby-source-filesystem": "^3.8.0",
+    "gatsby-transformer-sharp": "^3.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "sass": "^1.35.1"
   }
 }
