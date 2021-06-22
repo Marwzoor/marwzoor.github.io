@@ -14,7 +14,7 @@ export default class IndexPage extends React.Component {
 	}
 
 	getDomainFromUrl(url) {
-		let match = url.match(/^https?:\/\/([^\/]+)/i);
+		let match = url.match(/^https?:\/\/([^/]+)/i);
 
 		if (match) {
 			return match[1];
@@ -24,7 +24,7 @@ export default class IndexPage extends React.Component {
 	}
 
 	getPathFromUrl(url) {
-		let match = url.match(/^https?:\/\/[^\/]+(\/?.*)/i);
+		let match = url.match(/^https?:\/\/[^/]+(\/?.*)/i);
 
 		if (match) {
 			return match[1];
